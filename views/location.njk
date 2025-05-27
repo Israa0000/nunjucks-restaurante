@@ -1,0 +1,19 @@
+{% extends "base.njk" %}
+{% block content %}
+<div style="text-align: center;">
+  <img src="imgs/logo.png" alt="Logo">
+</div>
+<h1>Dónde encontrarnos</h1>
+<p>Nos encontramos en Calle Falsa 123, Ciudad, País.</p>
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <iframe
+    src="https://www.google.com/maps?q=Calle+Falsa+123,+Ciudad,+País&output=embed"
+    width="400"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+{% endblock %}
